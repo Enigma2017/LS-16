@@ -1,0 +1,103 @@
+.choose{
+    padding-bottom: 130px;
+
+    h2{
+        text-align: center;
+        font-size: 48rem;
+        font-family: var(--ff);
+        color: var(--c-black);
+        padding-bottom: 26px;
+        font-weight: 700;
+    }
+
+    &-title__text{
+        font-size: 16rem;
+        text-align: center;
+        max-width: 837px;
+        line-height: 24px;
+        margin: auto;
+        font-weight: 400;
+        color: var(--c-black);
+        padding-bottom: 111px;
+    }
+
+    &-cards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-column-gap: 27px;
+        grid-row-gap: 27px;
+    }
+
+    &-cards__item{
+        max-width: 380px;
+        padding: 44px 23px 44px 30px;
+        background-color: var(--c-rose);
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
+    &-cards__item:hover{
+        transform: scale(1.5);
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+}
+
+    &-cards__title{
+        display: flex;
+    }
+
+    &-name{
+        margin: -19px 0 0 13px;
+        color: var(--c-black);
+
+        h4{
+            font-size: 18rem;
+            font-weight: 600;
+
+            a{
+                color: var(--c-black);
+            }
+        }
+
+        p{
+            margin-top: -21px;
+            font-size: 16rem;
+            font-weight: 400;
+        }
+    }
+
+    &-cards__text{
+        font-size: 16rem;
+        font-weight: 400;
+        margin-bottom: 38px;
+    }
+
+    &-cards__link{
+        padding: 11px 49px;
+        background-color: var(--c-violet);
+        font-size: 20rem;
+        font-weight: 600;
+        color: var(--c-text-white);
+        border-radius: 50px;
+        -webkit-border-radius: 50px;
+        -moz-border-radius: 50px;
+        -ms-border-radius: 50px;
+        -o-border-radius: 50px;
+    }
+
+    &-cards__link:hover{
+        background-color: var(--c-text-white);
+        color: var(--c-violet);
+        transition: 0.5s all ease-in;
+            -webkit-transition: 0.5s all ease-in;
+            -moz-transition: 0.5s all ease-in;
+            -ms-transition: 0.5s all ease-in;
+            -o-transition: 0.5s all ease-in;
+    }
+}

@@ -1,9 +1,17 @@
 .header {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 20px;
-	border-bottom: 1px solid var(--c-border);
+	padding: 40px 0 20px;
+	
+	&-flex{
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	&__logo{
+		font-size: 24rem;
+		font-weight: 600;
+		color: var(--c-black);
+	}
 
 	&__ul {
 		display: flex;
@@ -39,12 +47,67 @@
 	}
 
 	&__a {
+		font-size: 16rem;
+		font-weight: 600;
+		color: black;
+
 		@include tablet {
 			color: var(--c-text-white);
 		}
 	}
+
 }
 
+.header-form {
+	border-radius: 50rem;
+	background: #000000;
+	padding: 6rem 21rem;
+	padding-right: 10rem;
+	display: flex;
+	max-width: 288px;
+	margin-inline: auto;
+
+	&__input {
+		width: 100%;
+		background: #000000;
+		border: 0;
+		font-family: var(--ff);
+		font-weight: 400;
+		font-size: 14rem;
+		color: var(--c-text-white);
+
+		&::placeholder {
+			color: var(--c-text-white);
+		}
+
+	}
+
+	&__btn {
+		display: inline-flex;
+		align-items: center;
+		background: #000000;
+		cursor: pointer;
+		padding-top: 4px;
+
+		@include mobile {
+			padding: 10px;
+		}
+
+		&-text {
+			@include mobile {
+				display: none;
+			}
+		}
+
+		.material-icons {
+			display: none;
+
+			@include mobile {
+				display: inline-block;
+			}
+		}
+	}
+}
 
 
 .icon-menu,

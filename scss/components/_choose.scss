@@ -40,14 +40,6 @@
         -o-border-radius: 20px;
     }
 
-    &-cards__item:hover{
-        transform: scale(1.5);
-        -webkit-transform: scale(1.5);
-        -moz-transform: scale(1.5);
-        -ms-transform: scale(1.5);
-        -o-transform: scale(1.5);
-}
-
     &-cards__title{
         display: flex;
     }

@@ -653,13 +653,7 @@ body {
   -ms-border-radius: 20px;
   -o-border-radius: 20px;
 }
-.choose-cards__item:hover {
-  transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  -moz-transform: scale(1.5);
-  -ms-transform: scale(1.5);
-  -o-transform: scale(1.5);
-}
+
 .choose-cards__title {
   display: -webkit-box;
   display: -ms-flexbox;
